@@ -19,10 +19,11 @@ div.header {
 	justify-content:center;
 	align-items: center;
 	text-align:center;
+	width: 100%;
 }
 
-div.nav {
-	
+div.title {
+	width: 90%;
 }
 
 nav {
@@ -120,3 +121,24 @@ div.galleryitem:hover {
 	font-weight: bold;
 	padding: 16px;
 }
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext{
+	visibility: hidden;
+
+	position: absolute;
+	z-index: 1;
+
+	background-color: #0a0b40;
+	color: white;
+	padding: 10px 20px;
+}
+
+div.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
