@@ -142,3 +142,10 @@ div.tooltip:hover .tooltiptext {
 	visibility: visible;
 }
 
+.bannertext{
+	position: absolute;
+	top: 240px;
+
+	color: lightgrey;
+	z-index: 1;
+}
