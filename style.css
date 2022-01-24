@@ -1,7 +1,17 @@
 body {
 	margin:0;
+	width: 100%;
+	font-size: 16px;
 }
 
+.center {
+	display:flex;
+	justify-content:center;
+	align-items: center;
+
+	width: 100%;
+	height: 600px;
+}
 
 div.main {
 	width: 100%;
@@ -14,7 +24,7 @@ h1 {
 	color:#474769;
 }
 
-div.header {
+header {
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -23,7 +33,7 @@ div.header {
 }
 
 div.title {
-	width: 90%;
+	width: 88%;
 }
 
 nav {
@@ -34,8 +44,8 @@ nav {
 }
 
 img {
-	width: 70px;
-	height: 70px;
+	width: 100px;
+	height: 100px;
 }
 
 div.banner {
@@ -49,7 +59,7 @@ img.banner {
 	
 }
 
-li {
+li.sp {
 	text-decoration:none;
 	list-style:none;
 	display:inline-block;
@@ -67,15 +77,14 @@ a {
 	padding:10px;
 }
 
-p{
+.logotext{
 	font-size:7px;
 	margin-top:0px;
 }
 
-
-div.footer {
+footer {
 	width:100%;
-	height: 200px;
+	height: 140px;
 	display:flex;
 	justify-content:center;
 	align-items: center;
@@ -83,6 +92,7 @@ div.footer {
 	margin:0;
 	
 	background-color:#474769;
+	font-size: 20px;
 }
 
 div.footeritem {
@@ -148,4 +158,76 @@ div.tooltip:hover .tooltiptext {
 
 	color: lightgrey;
 	z-index: 1;
+}
+
+.spPara:hover {
+	font-size: 20px;
+}
+
+.centeredItem {
+	border: solid black 1px;
+	width: 40%;
+	padding: 30px;
+	height: 400px;
+	margin: 20px;
+}
+
+p {
+	padding: 0px 20px;
+}
+
+label {
+	padding: 10px;
+	width: 110%;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	width: 40%;
+	padding-bottom: 10px;
+}
+
+td.input {
+	width: 60%;
+}
+
+input , select{
+	border: 0px;
+	border-bottom: solid black 1px;
+	width: 100%;
+}
+
+input.radio {
+	width: auto;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	color: white;
+	background-color: #0a0b40;
+	border: 0px;
+}
+
+button:hover {
+	width: 100%;
+	padding: 10px;
+	color: #0a0b40;
+	background-color: white;
+	border: 0px;
+}
+
+
+div.animated {
+	border-radius: 50%;
+	width: 150px;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: lightblue;
 }
