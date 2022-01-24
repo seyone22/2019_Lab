@@ -220,14 +220,28 @@ button:hover {
 	border: 0px;
 }
 
+@keyframes animated {
+	0% {background-color: lightblue; left: 0px; top: 0px;}
+	20% {background: lightcoral; left: 250px;	top: 0px;}
+	40% {background: lightgoldenrodyellow; left: 250px;	top: 150px;}
+	60% {background: lightsalmon; left: 0px;	top: 150px;}
+	100% {background: lightgreen; left: 0px;	top: 0px;}
+}
 
 div.animated {
 	border-radius: 50%;
 	width: 150px;
 	height: 75px;
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	background-color: lightblue;
+
+	animation-name: animated;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+
+	text-align: center;
 }
